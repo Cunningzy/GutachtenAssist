@@ -52,6 +52,10 @@ asyncio-throttle>=1.0.2
 schedule>=1.2.0
 sqlite3-utils>=3.30.0
 
+# Gamer Health Research Agent Dependencies
+google>=3.0.0
+googlesearch-python>=1.2.3
+
 # Development
 pytest>=7.4.0
 black>=23.0.0
