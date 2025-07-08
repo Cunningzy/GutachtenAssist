@@ -1,0 +1,71 @@
+{
+  "reddit": {
+    "enabled": false,
+    "credentials": {
+      "client_id": "your_reddit_client_id",
+      "client_secret": "your_reddit_client_secret",
+      "user_agent": "SocialMediaCollector/1.0",
+      "username": null,
+      "password": null
+    },
+    "settings": {
+      "default_subreddits": ["all", "popular", "AskReddit", "technology", "programming"],
+      "max_posts_per_subreddit": 50
+    }
+  },
+  "twitter": {
+    "enabled": false,
+    "credentials": {
+      "bearer_token": "your_twitter_bearer_token",
+      "api_key": null,
+      "api_secret": null,
+      "access_token": null,
+      "access_token_secret": null
+    },
+    "settings": {
+      "rate_limit_delay": 60,
+      "max_search_results": 100
+    }
+  },
+  "facebook": {
+    "enabled": false,
+    "credentials": {
+      "access_token": "your_facebook_access_token",
+      "app_id": "your_facebook_app_id",
+      "app_secret": "your_facebook_app_secret"
+    },
+    "settings": {
+      "pages_to_monitor": [],
+      "rate_limit_delay": 60
+    }
+  },
+  "forums": {
+    "enabled": true,
+    "settings": {
+      "urls": [
+        "https://www.reddit.com/r/all/new.json",
+        "https://news.ycombinator.com/newest",
+        "https://lobste.rs/newest",
+        "https://www.reddit.com/r/programming/new.json",
+        "https://www.reddit.com/r/technology/new.json"
+      ],
+      "request_delay": 2.0,
+      "max_pages": 5,
+      "timeout": 30,
+      "user_agent": "Mozilla/5.0 (compatible; SocialMediaCollector/1.0)"
+    }
+  },
+  "collection": {
+    "default_max_posts": 100,
+    "default_time_range_hours": 24,
+    "export_formats": ["json", "csv"],
+    "auto_export": true,
+    "database_path": "data/social_media.db"
+  },
+  "filtering": {
+    "min_content_length": 10,
+    "max_content_length": 10000,
+    "blocked_keywords": ["spam", "advertisement"],
+    "blocked_authors": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "email": {
+    "recipient": "kharninngz@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "",
+    "sender_password": "",
+    "enabled": false
+  },
+  "research": {
+    "max_results_per_keyword": 10,
+    "search_delay_seconds": 2,
+    "request_timeout": 10,
+    "daily_run_time": "09:00",
+    "data_retention_days": 30
+  },
+  "keywords": {
+    "physical_health": [
+      "health issues League of Legends players",
+      "League of Legends back pain",
+      "back pain after long gaming sessions",
+      "gaming posture problems",
+      "neck pain from gaming",
+      "wrist pain from gaming",
+      "LoL carpal tunnel",
+      "anyone else have wrist pain from gaming?",
+      "League of Legends eye strain"
+    ],
+    "mental_health": [
+      "League of Legends mental health",
+      "anxiety when playing League of Legends",
+      "LoL ranked anxiety",
+      "League of Legends social anxiety",
+      "how to handle stress from League of Legends",
+      "how to deal with tilt in League of Legends",
+      "I rage too much in League of Legends",
+      "can't stop playing League of Legends",
+      "League of Legends is making me depressed"
+    ],
+    "product_solutions": [
+      "best chair for League of Legends gamers with back pain",
+      "best gaming chair for back pain",
+      "gaming chair back pain recommendations",
+      "best gaming mouse for carpal tunnel",
+      "vertical gaming mouse for wrist pain",
+      "ergonomic keyboard for gaming",
+      "wrist rest for gaming",
+      "wrist brace for gaming carpal tunnel",
+      "blue light glasses for gaming",
+      "standing desk for gaming"
+    ],
+    "platform_specific": [
+      "reddit League of Legends health issues",
+      "reddit LoL back pain",
+      "reddit LoL wrist pain",
+      "reddit LoL anxiety",
+      "League of Legends forum health issues",
+      "gaming forum wrist pain",
+      "YouTube gaming wrist pain exercises",
+      "YouTube League of Legends mental health"
+    ]
+  },
+  "platforms": {
+    "reddit": {
+      "enabled": true,
+      "target_subreddits": [
+        "leagueoflegends",
+        "summonerschool",
+        "gaming",
+        "pcgaming",
+        "gaminghealth",
+        "ergonomics",
+        "chronicpain",
+        "mentalhealth"
+      ]
+    },
+    "facebook": {
+      "enabled": true,
+      "target_groups": [
+        "League of Legends",
+        "Gaming Health",
+        "Ergonomic Gaming"
+      ]
+    },
+    "review_sites": {
+      "enabled": true,
+      "domains": [
+        "amazon.com",
+        "trustpilot.com",
+        "reviews.com",
+        "sitejabber.com"
+      ]
+    },
+    "forums": {
+      "enabled": true,
+      "domains": [
+        "leagueoflegends.com",
+        "gaming-forums.com",
+        "reddit.com"
+      ]
+    }
+  },
+  "analysis": {
+    "pain_point_indicators": [
+      "problem",
+      "issue",
+      "pain",
+      "hurt",
+      "ache",
+      "uncomfortable",
+      "difficult",
+      "struggle",
+      "can't",
+      "unable",
+      "frustrated",
+      "annoyed",
+      "terrible",
+      "awful",
+      "worst",
+      "bad experience",
+      "doesn't work",
+      "failed",
+      "disappointed",
+      "waste of money",
+      "regret",
+      "mistake"
+    ],
+    "solution_indicators": [
+      "solution",
+      "fix",
+      "help",
+      "works",
+      "recommend",
+      "better",
+      "improvement",
+      "relief",
+      "solved",
+      "fixed"
+    ]
+  }
+}
